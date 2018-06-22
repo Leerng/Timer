@@ -16,6 +16,8 @@ public class MyTimer extends JFrame {
     private initGUI() {
         TitleLabel titleLabel = new TitleLabel("My Timer");
         add(titleLabel, BorderLayout.PAGE_START);
+        add(centerPanel, BorderLayout.CENTER);
+        
         try {
             String className = UIManager.getCossPlatformLookAndFeelClassName();
             UIManager.setLookAndFeel(className);
