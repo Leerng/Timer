@@ -1,6 +1,8 @@
 public class MyTimer extends JFrame {
     public static final long serialVersionUID = 1L;
     
+    private TimerPanel timerPanel = new TimerPanel();
+    
     public MyTimer() {
         initGUI();
         setTitle("My Timer");
